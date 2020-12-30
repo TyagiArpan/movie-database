@@ -1,0 +1,18 @@
+<%- include("partials/header") %>
+
+<section id="main">
+    <div class="container">
+        <h1>Search for a movie</h1>
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="/results" method="GET">
+                    <input class="form-control form-control-lg" type="search" placeholder="Name" name="search" required>
+                
+                    <button class="btn btn-outline-dark btn-lg btn-block" type="submit">Find Movies</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include("partials/footer") %>
